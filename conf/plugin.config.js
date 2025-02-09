@@ -3,11 +3,11 @@
  */
 module.exports = {
   // 网站全文搜索
-  ALGOLIA_APP_ID: process.env.NEXT_PUBLIC_ALGOLIA_APP_ID || 'NSSD6L321T', // 在这里查看 https://dashboard.algolia.com/account/api-keys/
-  ALGOLIA_ADMIN_APP_KEY: process.env.ALGOLIA_ADMIN_APP_KEY || '159b0d16f1f4ad137b737c3a8b54ddde', // 管理后台的KEY，不要暴露在代码中，在这里查看 https://dashboard.algolia.com/account/api-keys/
+  ALGOLIA_APP_ID: process.env.NEXT_PUBLIC_ALGOLIA_APP_ID || NSSD6L321T, // 在这里查看 https://dashboard.algolia.com/account/api-keys/
+  ALGOLIA_ADMIN_APP_KEY: process.env.ALGOLIA_ADMIN_APP_KEY || 159b0d16f1f4ad137b737c3a8b54ddde, // 管理后台的KEY，不要暴露在代码中，在这里查看 https://dashboard.algolia.com/account/api-keys/
   ALGOLIA_SEARCH_ONLY_APP_KEY:
-    process.env.NEXT_PUBLIC_ALGOLIA_SEARCH_ONLY_APP_KEY || '8275a68e23b0221e63cf537ea9cebd88', // 客户端搜索用的KEY
-  ALGOLIA_INDEX: process.env.NEXT_PUBLIC_ALGOLIA_INDEX || 'www_bvip_one_nssd6l321t_pages', // 在Algolia中创建一个index用作数据库
+    process.env.NEXT_PUBLIC_ALGOLIA_SEARCH_ONLY_APP_KEY || 8275a68e23b0221e63cf537ea9cebd88, // 客户端搜索用的KEY
+  ALGOLIA_INDEX: process.env.NEXT_PUBLIC_ALGOLIA_INDEX || www_bvip_one_nssd6l321t_pages, // 在Algolia中创建一个index用作数据库
 
   // AI 文章摘要生成
 
